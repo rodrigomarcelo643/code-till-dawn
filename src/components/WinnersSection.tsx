@@ -1,8 +1,8 @@
 import { Trophy } from "lucide-react";
 
 const winners = [
-  { place: "1st", label: "Champion", color: "text-yellow-400" },
   { place: "2nd", label: "Runner-Up", color: "text-foreground/60" },
+  { place: "1st", label: "Champion", color: "text-yellow-400" },
   { place: "3rd", label: "Second Runner-Up", color: "text-amber-700" },
 ];
 
@@ -23,7 +23,7 @@ const WinnersSection = () => {
             <div
               key={i}
               className={`relative border border-border rounded-lg p-8 bg-card text-center hover:border-primary/30 transition-all hover:box-glow ${
-                i === 0 ? "md:-mt-4 border-primary/20 box-glow" : ""
+                i === 1 ? "md:-mt-4 border-primary/20 box-glow" : ""
               }`}
             >
               <Trophy className={`w-10 h-10 mx-auto mb-4 ${w.color}`} />

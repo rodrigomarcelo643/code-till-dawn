@@ -1,4 +1,4 @@
-import spartanShield from "@/assets/spartan-shield.png";
+import spartanShield from "/code_till_dawn_logo.svg";
 
 const HeroSection = () => {
   return (
@@ -18,7 +18,7 @@ const HeroSection = () => {
 
         {/* Main headline */}
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-glow text-primary mb-4">
-          CODE TIL DAWN
+          CODE TILL DAWN
         </h1>
         <p className="font-display text-xl md:text-2xl font-medium text-primary/70 tracking-widest mb-6">
           2 0 2 6
