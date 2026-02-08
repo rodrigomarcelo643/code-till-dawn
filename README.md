@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🛡️ Code Til Dawn 2026: Mini Hackathon
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The official landing page for **Code Til Dawn 2026**, a high-intensity, 24-hour mini-hackathon hosted by the **SwuDevs, AWSCC - SWU PHINMA, & College of Information Technology Student Council - SWU PHINMA**. This event challenges IT and Engineering (CITE) students to collaborate, code, and innovate to solve real-world problems under a ticking clock.
 
-## How can I edit this code?
+## 🚀 Event Overview
 
-There are several ways of editing your application.
+* **Duration:** 24 Hours nonstop.
+* **Dates:** February 15 – 16, 2026.
+* **Target Audience:** All year levels in SWU PHINMA College of IT and Engineering (CITE).
+* **Location:** SWU PHINMA Campus.
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This landing page is built using:
 
-Changes made via Lovable will be committed automatically to this repo.
+* **React + Vite** (Frontend framework)
+* **Tailwind CSS** (Styling with the CITE Navy & Cyan palette)
+* **TypeScript** (Typed logic)
 
-**Use your preferred IDE**
+## 📋 Hackathon Mechanics
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Team Composition:** 3–5 members per team.
+* **Presentation:** 10 minutes total (5 mins demo + 5 mins Q&A).
+* **Deliverables:** Codebase must be available on GitHub with a proper README file.
+* **AI Policy:** Generative AI is allowed but must not make up the majority of the project.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📅 Program Flow
 
-Follow these steps:
+| Date | Time | Activity |
+| --- | --- | --- |
+| **Feb 15** | 12:00 PM | Participant Registration & Check-in |
+|  | 4:00 PM | **Commencement of Coding Phase** |
+| **Feb 16** | 7:00 AM | Finalization of Projects |
+|  | 10:00 AM | Project Presentations & Judging |
+|  | 1:00 PM | Awarding Ceremony |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚖️ Judging Criteria
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Teams are evaluated based on:
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Innovation (40%)**
+2. **Technical Execution (30%)**
+3. **UI/UX (20%)**
+4. **Presentation (10%)**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+## 💻 Installation & Development
+
+1. **Clone the repo:**
+```bash
+git clone https://github.com/your-repo/code-til-dawn-2026.git
+
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. **Install dependencies:**
+```bash
+npm install
 
-**Use GitHub Codespaces**
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+3. **Run development server:**
+```bash
+npm run dev
 
-This project is built with:
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🤝 Organizers
 
-## Can I connect a custom domain to my Lovable project?
+This project and event are organized by the **SwuDevs, AWSCC - SWU PHINMA, & College of Information Technology Student Council** and supported by **SWU PHINMA College of IT & Engineering**.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+<p align="right"><sub><i>// Built for the future of CITE devs</i></sub></p>
