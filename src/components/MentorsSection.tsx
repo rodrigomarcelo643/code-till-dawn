@@ -1,13 +1,18 @@
 import { User } from "lucide-react";
 import person from "/person.png";
 import zyndly from "/mentor-zyndly.jpg";
+import yurii from "/mentor-yurii.jpg";
+import wilchin from "/mentor-wilchin.jpg";
+import jarod from "/mentor-jarod.jpg";
+import john from "/mentor-john.png";
 
 const mentors = [
   { name: "Zyndly Baja", role: "Full-Stack Developer", org: "Farmyra", photo: zyndly },
   { name: "Seth Abangan", role: "AI/ML Expert", org: "TBA", photo: person },
-  { name: "TBA", role: "TBA", org: "TBA", photo: person },
-  { name: "TBA", role: "TBA", org: "TBA", photo: person },
-  { name: "TBA", role: "TBA", org: "TBA", photo: person },
+  { name: "Wilchin Dipolog", role: "Full-Stack Developer", org: "Accenture", photo: wilchin },
+  { name: "Jarod Falcone", role: "Application Support Engineer", org: "Accenture", photo: jarod },
+  { name: "John Baldonido", role: "Senior Consultant", org: "EY", photo: john },
+  { name: "Yurii Yankin", role: "Full-Stack Developer", org: "DDA PH", photo: yurii },
 ];
 
 const MentorsSection = () => {
@@ -22,7 +27,7 @@ const MentorsSection = () => {
           <div className="w-12 h-px bg-primary/50 mx-auto mt-5" />
         </div>
 
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
           {mentors.map((mentor, i) => (
             <div key={i} className="flex flex-col items-center text-center group">
               <div className="w-28 h-28 rounded-full border border-border bg-secondary flex items-center justify-center mb-3 group-hover:border-primary/40 transition-colors overflow-hidden">
